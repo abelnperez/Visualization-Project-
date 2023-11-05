@@ -33,7 +33,7 @@ In the first url we got the first DataFrame, we carefully cleaned it and obtain 
 
 Once the transformation data was completed we got 3 DataFrames that we converted into dictionarys to export into MongoDB, where we created the energy data base and the collection. We did the exportation and completed the load process.
 
-![](https://github.com/abelnperez/sql_data_base_building-/blob/main/images/movies.PNG)
+![](https://github.com/abelnperez/Extract-Transform-Load-ETL-Project/blob/main/images/dataframe.PNG)
 
 ## Information  🎞🕹
 
