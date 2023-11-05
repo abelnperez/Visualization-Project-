@@ -1,16 +1,37 @@
 
-#  | SQL Data Base Building Project 🗄 🚀
+#  | Extract, Transform, Load (ETL) Project ✂🗄🛢
 
 ![](https://github.com/abelnperez/sql_data_base_building-/blob/main/images/ARTvideoclub.jpg)
 
-## Main goal  📼📼📼
+## Main goal ♻♻♻ 
 
-Our client is a nostalgic businessman who has opened a retro Arcade games salon for those who were kids in the 70s and 80s. The business is going well, it has a strong base of loyal clients and the salon is very popular in the area, attracting people from other cities when they organize the Arcade Contest every month. Since the business is going well, the owner has had the idea to add something new and at the same time old to its business. 
+The objective of this project is to do the complete ETL (Extract, Transform, Load) with two conditions, it is mandatory to use 2 extraction methods and to obtain the data from three different sources. 
 
-To include more retro taste to the Arcade Salon he bought the film inventory of the last Blockbuster video club in the city, which closed in 2006, more than 17 years ago. With the movies, he also obtained the last database of the video club, and his idea is to recover it as well and put it running again. Since everything in his business is retro, he is looking to maintain the records of the last clients (except the personal data, since it is protected by law) as a sign of continuity. 
+The extraction methods have been thorough an API and a CSV:
 
-So I have gathered all the important information in the old CSV files, to obtain a clean, organized, null-free, and legible data set that allows us to read and interpret the information we need and is relevant to us. Once that part is done I have created a structured database in SQL that will help the owner to manage the business. 
+   - **API**: the spanish electric red https://www.ree.es/en/apidatos
+   - **CSV**: 2 CSV files from 2 diferent sources
 
+The sources are:
+
+   - **API**:  https://www.ree.es/en/apidatos
+   - **Kaggle**: https://www.kaggle.com/datasets/mannmann2/world-per-capita-energy-consumption/
+   - **Our World in Data**: https://ourworldindata.org/energy
+
+
+## Extraction  🕹
+
+We have done an analitical research from different websites to understand the electric market since a new company has the will to enter in the spanish energy sector in the renowables category. After our reserach we have found some relevant information, once data set about the World Per Capita Eenergy Consumption, a second one about the World Energy Consumption, and also the Spanish Electric Net API. 
+
+## Transformation  🕹
+
+In the first url we got the first DataFrame, we carefully cleaned it and obtain the relevant information for our project. We deleted the columns wiht no relevatn information and simplified the DataFrame getting only the information from the countries that belong to the European Union to do a future comparison between them. From the second DataFrame we got more relevant information, specialy the kinds of energy, the source of the energy, the energy per capita and more. It was also necesary to create more columns wiht relevant metrics for the project like the total_fossil_energy, total_renewable_energy, renewable_energy_percentage and the fossil_energy_percentage. With that information on hand we decided to jumpo into the Spanish Electric Net API to know how much of the energy is obtained from fossil resorces and how much is obtained from renewable sources. We got into the API and we extracted the relevant information that we needed, unfortunately the information stored there it just reach until 2016. 
+
+
+
+## Load  🕹
+
+Once the transformation data was completed we got 3 DataFrames that we converted into dictionarys to export into MongoDB, where we created the energy data base and the collection. We did the exportation and completed the load process.
 
 ![](https://github.com/abelnperez/sql_data_base_building-/blob/main/images/movies.PNG)
 
@@ -54,9 +75,7 @@ The repository is divided in the following files:
 
 [Python](https://docs.python.org/3/library/functions.html)
 
-[Matplotlib](https://matplotlib.org/)
-
-[Seaborn](https://seaborn.pydata.org/)
+[Python Functional Progragmming] (https://docs.python.org/3.7/howto/functional.html)
 
 [Data Cleaning Tutorial](https://www.tutorialspoint.com/python/python_data_cleansing.html)
 
