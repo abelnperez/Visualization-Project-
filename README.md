@@ -1,14 +1,17 @@
 
 #  | Tableau Visualization Project 🧑📊📈📉
 
-![]()
+![](https://github.com/abelnperez/Visualization-Project-/blob/main/images/Tableau.jpg)
 
 ## Main goal ♻♻♻ 
 
-The objective of this project is to create a visaulization that gathers the necesary information for our client. They want to penetrate in the european market, and the previous step is to analize the european market, see how the energy is produce, investigate the different energy sources and show that information in a dashboard to clearly understand the market needs. 
+Our client, Sun Energy and Co., is a prominent energy company situated in India. With the rapid growth of the Indian economy, the company is eager to extend its operations to Europe. The primary goal of this project is to develop a comprehensive visualization that compiles essential information for our client. As their aim is to establish a presence in the European market, a detailed analysis of the market is imperative. This involves examining the methods of energy production, understanding prevailing energy trends, investigating various energy sources, and presenting this information through a dynamic dashboard. The ultimate objective is to provide our client with a clear and insightful understanding of the European market's energy landscape, enabling them to make informed and strategic decisions to meet market demands.
 
 
-The source is:
+
+
+
+Our data source is the following:
 
    - **Our World in Data**: https://ourworldindata.org/energy
 
@@ -18,19 +21,6 @@ The source is:
 https://public.tableau.com/app/profile/abel.nu.ez.perez/viz/RenewableFossilEnergybyCountry/RenewableFossilEnergy?publish=yes
 
 https://public.tableau.com/app/profile/abel.nu.ez.perez/viz/EnergyTypesacumulated/EnergyTypesAcumulated?publish=yes
-
-## Tablas
-
-https://public.tableau.com/app/profile/abel.nu.ez.perez/viz/FossilRenewablebyCountry/FossilRenewablebyCountry?publish=yes
-
-https://public.tableau.com/app/profile/abel.nu.ez.perez/viz/Energypercapitabycountryandyear/Energypercapitabycountryandyear?publish=yes
-
-https://public.tableau.com/app/profile/abel.nu.ez.perez/viz/countryyear/CountryYearenergytype?publish=yes
-
-https://public.tableau.com/app/profile/abel.nu.ez.perez/viz/Energytypes/EnergyTypesacumulated?publish=yes
-
-añadir   https://public.tableau.com/app/profile/abel.nu.ez.perez/viz/Energypercapitabycountryandyear/Energypercapitabycountryandyear?publish=yes
-
 
 
 ![](https:)
