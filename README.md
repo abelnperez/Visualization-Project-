@@ -33,7 +33,7 @@ https://public.tableau.com/app/profile/abel.nu.ez.perez/viz/RenewableFossilEnerg
 https://public.tableau.com/app/profile/abel.nu.ez.perez/viz/EnergyTypesacumulated/EnergyTypesAcumulated?publish=yes
 
 
-![](https:)
+![](https://github.com/abelnperez/Visualization-Project-/blob/main/images/tabla.PNG)
 
 ## Information  
 
