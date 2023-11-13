@@ -1,5 +1,5 @@
 
-#  | Tableau Visualization Project 🧑📊📈📉
+#  | Tableau Visualization Project 📊📈📉
 
 ![](https://github.com/abelnperez/Visualization-Project-/blob/main/images/Tableau.jpg)
 
