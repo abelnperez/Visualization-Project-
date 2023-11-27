@@ -28,9 +28,11 @@ Our data source is the following:
 
 ## DASHBOARD  
 
-https://public.tableau.com/app/profile/abel.nu.ez.perez/viz/RenewableFossilEnergybyCountry/RenewableFossilEnergy?publish=yes
+https://public.tableau.com/app/profile/abel.nu.ez.perez/viz/Energypercapitabycountryandyear/RenewableFossilEnergy?publish=yes
 
-https://public.tableau.com/app/profile/abel.nu.ez.perez/viz/EnergyTypesacumulated/EnergyTypesAcumulated?publish=yes
+https://public.tableau.com/app/profile/abel.nu.ez.perez/viz/EnergyTypesAccumulatedbyCountry/Dashboard2?publish=yes
+
+https://public.tableau.com/app/profile/abel.nu.ez.perez/viz/Energypercapitabycountryandyear/EnergyperCapitabycountryandyear?publish=yes
 
 
 ![](https://github.com/abelnperez/Visualization-Project-/blob/main/images/tabla.PNG)
