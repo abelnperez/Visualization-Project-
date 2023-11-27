@@ -1,5 +1,5 @@
 
-#  | IN PROGRESS, NOT FINISHED - Tableau Visualization Project 📊📈📉
+#  | Tableau Visualization Project 📊📈📉
 
 ![](https://github.com/abelnperez/Visualization-Project-/blob/main/images/Tableau.jpg)
 
@@ -35,7 +35,7 @@ https://public.tableau.com/app/profile/abel.nu.ez.perez/viz/EnergyTypesAccumulat
 https://public.tableau.com/app/profile/abel.nu.ez.perez/viz/Energypercapitabycountryandyear/EnergyperCapitabycountryandyear?publish=yes
 
 
-![](https://github.com/abelnperez/Visualization-Project-/blob/main/images/tabla.PNG)
+![](https://github.com/abelnperez/Visualization-Project-/blob/main/images/Captura.PNG)
 
 ## Information  
 
